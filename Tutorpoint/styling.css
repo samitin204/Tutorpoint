@@ -1,0 +1,245 @@
+
+
+.jumbotron{
+    background: url("images/Earth.jpg");
+    background-size: cover;
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.nav-link{
+    color: white;
+}
+
+.logo{
+    width: 22px;
+    height: 22px;
+    opacity: 80%;
+    margin-right: 5px;
+    
+}
+
+.logoname{
+    color:white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight:bold;
+}
+
+.navlist{
+    margin-left: 150px;
+}
+
+
+.col-md-12{
+    color:black;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2.5px;
+    
+}
+
+.p{
+    padding-top: 150px;
+    font-size: 2.7em;
+    font-family: serif;
+    
+}
+
+.name{
+    margin-left: 200px;
+    margin-top: 125px;
+}
+
+.borderstyle input{
+    border-radius: 0px;
+    
+}
+
+.featured .btn-default:hover{
+    
+    background-color: rgb(145, 82, 58);
+}
+
+.nav-item{
+   margin-right: 50px;
+   font-size: 0.8em;
+}
+
+.login{
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.jumbotr{
+    background:lightgrey;
+    height: auto;
+    padding: 0px;
+    width:1150px;
+    margin:auto;
+    margin-bottom: 60px;
+}
+
+
+.col-md-4{
+    text-align: center;
+    color:black;
+}
+
+.icons p{
+    font-size: 15px;   
+}
+
+.tutlib{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.card{
+    background:lightgrey;
+}
+
+.card-columns{
+    margin-bottom: 0;
+}
+
+.card-body{
+ padding: 0; 
+}
+
+.card h6{
+    margin-top: 20px;
+}
+
+.card-footer p{
+    color:crimson;
+}
+
+.card-footer:hover{
+    background-color: crimson;
+    color:white;   
+}
+
+
+.searchcontainer{
+    margin: auto;
+    background-color: crimson;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.searchtitle{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.searchbox{
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 35px;
+    padding-left: 130px;
+}
+
+
+
+
+/*
+.footer ul li{
+  padding-bottom: 5px;
+  list-style-image: url(images/tickmark_sm.jpg);
+  margin-left: 40px;
+  
+}
+*/
+
+
+footer ul li:before{ 
+   content:""; 
+   font-size:10pt;
+   display:inline-block;
+   height: 15px;
+   width: 15px;
+   background-image: url(images/tickmark_sm.jpg);
+   opacity: 40%;
+   background-size: cover;
+}
+
+
+
+footer ul li a{
+    margin-left: 5px;
+    font-size: 18px;
+    text-decoration:none;
+    transition: font-size 0.3s ease;    
+}
+
+.footerlogo:before{
+    content:"";
+    background-image:url(images/Tutor_Logo.png);
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    background-size: cover;
+    opacity: 60%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+
+footer{
+    background-color:chartreuse; 
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.tutorpnt{
+  color: white;
+  margin-bottom: 90px;
+  margin-top: 20px;
+}
+
+.footersubtitle{
+    color: black;
+    margin-left: 40px;
+}
+
+/*
+
+@media (max-width: 768px){
+    .img{
+        height: 50%;
+        width: 50%;
+    }
+}
+*/
+
+
+/*
+body {
+  background-color: purple;
+}
+*/
+
+@media screen and (max-width: 600px) {
+  .p p{
+    font-size: 0.4em;
+  }
+}
+
+/*
+@media screen and (min-width: 400px) {
+  body {
+    background-color: yellow;
+  }
+}
+*/

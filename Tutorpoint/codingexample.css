@@ -1,0 +1,414 @@
+.jumbotron{
+    background: url("images/Wooddarkbrown.jpg");
+    background-size: cover;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+.nav-link{
+    color: white;
+}
+
+.logo{
+    width: 22px;
+    height: 22px;
+    opacity: 80%;
+    margin-right: 5px;
+    
+}
+
+.logoname{
+    color:white;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight:bold;
+}
+
+.navlist{
+    margin-left: 150px;
+}
+
+.name{
+    margin-left: 260px;
+    margin-top: 125px;
+}
+
+
+.nav-item{
+   margin-right: 50px;
+   font-size: 0.8em;
+}
+
+.login{
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+.changeurl{
+    margin-top: 50px;
+    color: white;
+}
+
+.col-md-4{
+    margin-top: 40px;
+    color:black;
+}
+
+.icons p{
+    font-size: 15px;   
+}
+
+.tutlib{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+}
+
+.card{
+    border:none;
+}
+.card-columns{
+    margin-bottom: 0px;
+}
+
+.card-body{
+    padding-top: 5px; 
+    border: 1px inset grey;
+}
+
+.card-body ul li{
+    list-style: disc;
+    margin-left: -20px;
+}
+
+.card-columns div:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.card-columns div:nth-child(2){
+    margin-bottom: 25px;
+}
+
+.card-columns div:nth-child(3){
+    margin-bottom: 50px;
+}
+
+.card-columns div:nth-child(4){
+    margin-bottom: 10px;
+}
+
+.card-columns div:nth-child(5){
+    margin-bottom: 10px;
+}
+
+.card h6{
+    margin-top: 10px;
+}
+
+.searchcontainer2{
+    margin: auto;
+    background-color: crimson;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.searchtitle2{
+/*    text-align: center;*/
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+.searchtitle{
+    text-align: center;
+    width:350px;
+    margin: auto;
+    margin-top: -125px;   
+    color:white;
+    background-color: crimson;
+    padding:1px;
+    padding-top: 8px;
+
+}
+
+.searchcontainer{
+    margin: auto;
+    background-color: crimson;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    
+}
+
+.searchcontainer form{
+    margin: auto;
+    padding-left: 75px;
+    padding-top: 40px;
+}
+
+.form-inline input{
+    border-radius: 0px;
+}
+
+.signup{
+     background-color:black; 
+}
+
+body hr{
+    margin-bottom: 20px;
+    
+}
+
+.listheader{
+   margin-bottom: 20px; 
+}
+
+.allblogs{
+    margin-top: 40px;
+}
+
+
+.bodycont{
+   margin-top: 50px; 
+}
+
+.bodycont h3{
+    margin-top: 30px;
+}
+
+.regform{
+    height: 380px;
+/*    width: 800px;*/
+    margin: 30px;
+/*
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+*/
+    background-color: white;
+    padding-top: 45px;
+    padding-left: 20px;
+
+/*    background-color: aquamarine;*/
+}
+
+.regform input{
+    background-color:lightblue;
+    border-bottom-color: crimson; 
+    border-radius: 0px;
+    font-size:0.8em;
+
+}
+
+/*
+.reginfo{
+    
+   background-color:darkseagreen; 
+}
+*/
+
+.reginfo h6{
+    margin-bottom: 50px;
+}
+
+#phoneline{
+    font-size: 12px;
+    color:crimson;
+    font-weight: bold;
+}
+
+#phonenum{
+    margin-bottom: 70px;
+    font-size: 1.5em;
+    text-underline-position: under;
+}
+
+
+
+.reginfo ul li {
+    font-size: 10px;
+    margin-bottom: 15px;
+    list-style:none;
+    
+}
+
+.reginfo ul li::before {
+  content: "\2022";  
+  color: crimson; 
+  font-weight:bold; 
+  display: inline-block;
+  width: 0.8em; 
+  margin-left: -1em; 
+}
+
+u{
+    text-decoration-color: crimson;
+}
+
+/*
+.footer ul li{
+  padding-bottom: 5px;
+  list-style-image: url(images/tickmark_sm.jpg);
+  margin-left: 40px;
+  
+}
+*/
+
+.rightbloglist ul{
+    list-style: none;
+}
+
+.bloglist{
+    width: auto;
+    height: 50px;
+    padding: 1px 5px 2px 5px;
+    margin-bottom: 20px;
+}
+
+.bloglist ul li a{
+    
+    float: left;
+    margin-right: 20px;
+    border-right: 1px solid grey;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    transition: font-size 0.3s ease;
+    color:black;
+    
+}
+
+
+.bloglist ul li:last-child{
+    border-right: none;
+}
+
+.blocklogo-list {
+list-style-type: none;
+margin-left:0px;
+padding-left:0px;
+display: inline-block;
+}
+
+.blocklogo-list img
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    display:inline-block;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: -9px;
+}
+
+.blocklogo-list li {
+
+display:inline-block;
+margin-top: 15px;
+}
+
+/*
+.bloglogo:before{
+    content:"";
+    background-image:url(images/Tutor_Logo.png);
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    display:inline-block;
+    background-size: cover;
+    margin-top: 2px;
+    margin-right: 40px;
+}
+*/
+
+.blogbuttons li{
+   display:inline-block; 
+}
+
+.col-md-4 form{
+    margin-left:40px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+.rightbloglist ul li a {    
+    text-decoration: none;    
+}
+
+.rightbloglist ul li{    
+    padding-bottom: 10px;   
+}
+
+.titles{
+    margin-bottom:65px;
+    margin-left:40px;
+}
+
+
+
+footer ul li:before{ 
+   content:""; 
+   font-size:10pt;
+   display:inline-block;
+   height: 15px;
+   width: 15px;
+   background-image: url(images/tickmark_sm.jpg);
+   opacity: 40%;
+   background-size: cover;
+}
+
+
+
+.footer ul li a{
+    margin-left: 5px;
+    font-size: 18px;
+    text-decoration:none;
+    transition: font-size 0.3s ease;    
+}
+
+.footerlogo:before{
+    content:"";
+    background-image:url(images/Tutor_Logo.png);
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    background-size: cover;
+    opacity: 60%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+
+footer{
+    background-color:chartreuse; 
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+    margin-top: 80px;
+}
+
+.tutorpnt{
+  color: white;
+  margin-bottom: 90px;
+  margin-top: 20px;
+}
+
+.footersubtitle{
+    color: black;
+    margin-left: 40px;
+}
+
+
